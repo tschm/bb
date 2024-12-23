@@ -39,4 +39,3 @@ marimo: install ## Install Marimo
 .PHONY: backend
 backend: install # Run the fastAPI backend
 	@uv run uvicorn main:app --port 5050
-

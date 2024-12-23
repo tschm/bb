@@ -1,4 +1,3 @@
-
 dark_template = {
   "data": {
     "barpolar": [
