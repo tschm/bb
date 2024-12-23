@@ -1,14 +1,5 @@
---extra-index-url https://pip.hexaly.com
-
-cvxpy-base
-numpy
-plotly
-
-# we also install them on the fly in the Makefile
-marimo
-pre-commit
-
-# Install solvers
-clarabel
-mosek
-hexaly
+fastapi==0.95.2
+uvicorn==0.22.0
+pandas==2.0.1
+plotly==5.15.0
+requests==2.31.0
