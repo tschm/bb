@@ -35,3 +35,8 @@ help:  ## Display this help screen
 marimo: install ## Install Marimo
 	@uv pip install marimo
 	@uv run marimo edit notebooks
+
+.PHONY: backend
+backend: install # Run the fastAPI backend
+	@uv run uvicorn main:app --port 5050
+
