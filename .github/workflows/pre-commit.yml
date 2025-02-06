@@ -8,7 +8,7 @@ jobs:
   pre-commit:
     runs-on: ubuntu-latest
     steps:
-      - uses: cvxgrp/.github/actions/pre-commit@v2.1.1
+      - uses: cvxgrp/.github/actions/pre-commit@v2.1.2
 
   #deptry:
   #  runs-on: ubuntu-latest
